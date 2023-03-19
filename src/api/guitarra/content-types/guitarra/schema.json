@@ -4,7 +4,8 @@
   "info": {
     "singularName": "guitarra",
     "pluralName": "guitarras",
-    "displayName": "Guitarras"
+    "displayName": "Guitarras",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,20 @@
   "attributes": {
     "nombre": {
       "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }
