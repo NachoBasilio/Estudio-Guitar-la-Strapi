@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "posts",
+  "kind": "singleType",
+  "collectionName": "cursos",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post",
-    "description": ""
+    "singularName": "curso",
+    "pluralName": "cursos",
+    "displayName": "Cursos"
   },
   "options": {
     "draftAndPublish": true
@@ -21,19 +20,14 @@
       "required": true
     },
     "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "url": {
-      "type": "uid",
-      "targetField": "titulo"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
