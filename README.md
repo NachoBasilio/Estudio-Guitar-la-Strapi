@@ -1,1 +1,1 @@
-Proyecto Guitar Los Angeles (Escribir resumen)
+Proyecto Guitar Los Angeles (Escribir resumen).
